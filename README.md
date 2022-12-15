@@ -32,6 +32,8 @@ make
 You should see the circuit count to 10, over the course of 10 clock
 cycles, and then terminate.
 
+## Directory structure
+
 The project contains the following files.
 
   * `Makefile`: Contains a handful of build targets that
