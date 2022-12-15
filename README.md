@@ -3,8 +3,10 @@
 If you want to start developing your own
 [blarney](https://github.com/blarney-lang/blarney) application or
 library, you've come to the right place! This is a bare minimum
-application, most of which can be reused when starting any new
-project.
+blarney application, most of which can be reused when starting any new
+project. Before starting, make sure you have all [blarney's
+prerequisites](https://github.com/blarney-lang/blarney#prerequisites)
+installed.
 
 ## Overview
 
@@ -20,8 +22,8 @@ and then run it using cabal:
 cabal run
 ```
 
-This will produce a `Verilog` directory which you can simulate using
-Verilator:
+This will produce a circuit in the `Verilog` directory which you can
+simulate using Verilator:
 
 ```
 cd Verilog
@@ -39,7 +41,7 @@ The project contains the following files.
   * `Makefile`: Contains a handful of build targets that
     invoke cabal in various ways. Have a [look](Makefile).
 
-  * `blarney-template.project.cabal`: This introduces a dependency on
+  * `blarney-template-project.cabal`: This introduces a dependency on
     on blarney and enables all of the GHC extensions that we have found
     useful when working with blarney.
 
