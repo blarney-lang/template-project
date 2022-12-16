@@ -1,10 +1,10 @@
 # Blarney template project
 
 If you want to start developing your own
-[blarney](https://github.com/blarney-lang/blarney) application or
+[Blarney](https://github.com/blarney-lang/blarney) application or
 library, you've come to the right place! This is a bare minimum
-blarney application, most of which can be reused when starting any new
-project. Before starting, make sure you have all [blarney's
+Blarney application, most of which can be reused when starting any new
+project. Before starting, make sure you have all [Blarney's
 prerequisites](https://github.com/blarney-lang/blarney#prerequisites)
 installed.
 
@@ -42,10 +42,10 @@ The project contains the following files.
     invoke cabal in various ways. Have a [look](Makefile).
 
   * `blarney-template-project.cabal`: This introduces a dependency on
-    on blarney and enables all of the GHC extensions that we have found
-    useful when working with blarney.
+    on Blarney and enables all of the GHC extensions that we have found
+    useful when working with Blarney.
 
-  * `cabal.project`: This tells cabal where to find blarney,
+  * `cabal.project`: This tells cabal where to find Blarney,
     specifically the master branch on github.
 
-  * `src/Main.hs`: A very simple blarney circuit.
+  * `src/Main.hs`: A very simple Blarney circuit.
