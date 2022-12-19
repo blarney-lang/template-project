@@ -18,6 +18,7 @@ executable blarney-template-project
     BlockArguments
     DataKinds
     DeriveAnyClass
+    DerivingStrategies
     DuplicateRecordFields
     MultiWayIf
     NoImplicitPrelude
